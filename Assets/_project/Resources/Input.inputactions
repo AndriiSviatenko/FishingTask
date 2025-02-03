@@ -1,0 +1,82 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Fishing",
+            "id": "c577f4e9-13d1-4784-b908-b92d9a2663fe",
+            "actions": [
+                {
+                    "name": "Grab",
+                    "type": "Value",
+                    "id": "9cca8373-5a18-4e03-8840-122fbaa7e81f",
+                    "expectedControlType": "Delta",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "StartActiveFish",
+                    "type": "Button",
+                    "id": "8608baef-688e-468f-bad5-ec397f4fdfd5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "42065b64-dce7-4735-b3e0-a4bd5f6672eb",
+                    "path": "<Pointer>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71eb662f-1071-4853-9469-8239b9dd698e",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartActiveFish",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Rotate",
+            "id": "b49db8ce-f7dc-4187-9131-a09454399069",
+            "actions": [
+                {
+                    "name": "GetRotate",
+                    "type": "Value",
+                    "id": "4ddb0dfc-129e-4d93-81a5-eb0300031b0a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "31a3a888-aaf2-467b-a500-7dd023bb691b",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GetRotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
